@@ -1,0 +1,45 @@
+#main_logo {
+	display: block;
+	margin: 0px auto;
+    padding: 20px;
+	;
+}
+
+#center {
+  position: relative;
+  margin: 0px auto;
+  padding: 250px 0px;
+  height: 300px;
+  width: 400px;
+}
+
+#searchbox {
+	width: 100%;
+	border-radius: 0px;
+	line-height: 34px;
+	font-family: Arial, sans-serif;
+	box-shadow: 0px 3px 1px #4682B4;
+}
+
+.buttons {
+	position: absolute;
+	margin: 10px 0px;
+	font: 16px Arial, sans-serif;
+	height: 36px;
+	line-height: 27px;
+	border-radius: 2px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+}
+
+.buttons:hover {
+	border-color: grey;
+}
+
+#left_button {
+	left: 60px;
+}
+
+#right_button {
+	right: 60px;
+}
