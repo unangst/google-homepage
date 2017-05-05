@@ -1,3 +1,19 @@
+#header {
+  position: relative;
+  font: 13px Arial, sans-serif;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.hbuttons {
+  text-decoration: none;
+  color: black;
+}
+
+a.hbuttons:hover {
+	text-decoration: underline;
+}
+
 #main_logo {
 	display: block;
 	margin: 0px auto;
@@ -8,7 +24,7 @@
 #center {
   position: relative;
   margin: 0px auto;
-  padding: 200px 0px;
+  padding: 150px 0px;
   height: 300px;
   width: 575px;
 }
@@ -49,4 +65,8 @@
 
 #right_button {
 	right: 155px;
+}
+
+#footer {
+
 }
