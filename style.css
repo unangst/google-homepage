@@ -1,16 +1,29 @@
-#header {
-  position: relative;
-  font: 13px Arial, sans-serif;
-  width: 100%;
-  padding: 10px 0px;
+html, body {
+	height: 100%;
 }
 
-.hbuttons {
+#holder {
+	position: relative;
+	min-height: 100%;
+}
+
+#header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font: 13px Arial, sans-serif;
+  height: 35px;
+  width: 100%;
+}
+
+li a {
+  display: block;
   text-decoration: none;
   color: black;
+  padding-top: 11px;
 }
 
-a.hbuttons:hover {
+li a:hover {
 	text-decoration: underline;
 }
 
@@ -31,7 +44,7 @@ a.hbuttons:hover {
 
 #searchbox {
 	width: 100%;
-	height:; 40px;
+	height: 40px;
 	border-radius: 0px;
 	line-height: 34px;
 	font-family: Arial, sans-serif;
@@ -68,5 +81,21 @@ a.hbuttons:hover {
 }
 
 #footer {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	height: 35px;
+	width: 100%;
+	background-color: #f2f2f2;
+	font: 13px Arial, sans-serif;
+}
 
+.lbuttons {
+	float: left;
+	padding-left: 27px;
+}
+
+.rbuttons {
+	float: right;
+	padding-right: 27px;
 }
